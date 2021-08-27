@@ -7,7 +7,7 @@ export default class TypingIndicator extends MessageType {
 
     render(props: IMessageTypeProps) {
         return (
-            <div class="loading-dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            <div class="loading-dots"><span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
         );
     }
 
